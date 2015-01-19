@@ -1,0 +1,22 @@
+body
+{
+	margin: 10px;
+}
+
+#header
+{
+	padding: 20px;
+	background-color: #eee;
+}
+
+#footer
+{
+	padding: 20px;
+	background-color: #ccc;
+}
+
+#content
+{
+	padding: 20px;
+	background-color: white;
+}
