@@ -6,13 +6,13 @@ body
 #header
 {
 	padding: 20px;
-	background-color: #eee;
+	background-color: #ccc;
 }
 
 #footer
 {
 	padding: 20px;
-	background-color: #ccc;
+	background-color: #eee;
 }
 
 #content

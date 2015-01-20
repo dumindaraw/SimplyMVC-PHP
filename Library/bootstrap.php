@@ -32,6 +32,7 @@ class Bootstrap
 		 		{	
 		 			require_once $file;
 					$controller = new $controllerStr;
+					$controller->loadModel($url[0]);
 
 					if(isset($url[1]))
 					{

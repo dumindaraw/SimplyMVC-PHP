@@ -5,6 +5,13 @@
 </head>
 <body>
 <div id="header">
-Header goes here...
+<a href="<?php echo BASE_PATH;?>index">Home</a>
+
+<?php if(Session::get("isLoggedIn") == true): ?> 
+	<a href="<?php echo BASE_PATH;?>dashboard/logout">Logout</a>
+<?php else: ?>
+	<a href='<?php echo BASE_PATH;?>login'>Login</a>
+<?php endif ?>
+
 </div>
 <div id="content">
